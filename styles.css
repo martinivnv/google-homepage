@@ -1,0 +1,108 @@
+body {
+    font-family: arial
+  }
+  
+  .link {
+    color: #202124;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
+  header {
+    margin: 25px 0px 25px 0px;
+    width: 100%;
+  }
+  
+  #header-right {
+    position: absolute;
+    right: 20px;
+    top: 5px;
+  }
+  
+  .icon {
+    width: 2em;
+    image-rendering: pixelated;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+  }
+  
+  #apps-icon {
+    opacity: 0.55;
+  }
+  
+  #apps-icon:hover {
+    opacity: 0.85;
+  }
+  
+  #profile-icon {
+    border-radius: 50%;
+  }
+  
+  main {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #logo {
+    width: 400px;
+  }
+  
+  #search {
+    width: 350px;
+    height: 2.5em;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    border-color: silver;
+    border-width: 2px;
+  }
+  
+  #search:focus {
+    outline: none;
+  }
+  
+  #button-group {
+    margin: 30px;
+  }
+  
+  button{
+    border: none;
+    font-size: 14px;
+    padding: 1em;
+    border: 1px solid;
+    border-color: #cdcdcd;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    border-color: gray;
+  }
+  
+  button:focus {
+    outline: none;
+    border-color: #24a0ed;
+  }
+  
+  footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    padding: 0.8em 0px;
+    background-color: #f2f2f2;
+    width: 100%;
+    border-top: 1px solid #dadce0;
+  }
+  
+  #footer-right {
+    position: absolute;
+    right: 10px;
+    top: 0.8em;
+  }
